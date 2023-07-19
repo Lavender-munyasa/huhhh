@@ -12,9 +12,9 @@
  class Program
  {
      // Update this line with your Medical database connection string from the Azure portal.
-     static string connectionString = @"<connection string noted earlier>";
-     static string clientId = @"<client id noted earlier>";
-     static string clientSecret = "<key value noted earlier>";
+     static string connectionString = @"Server=tcp:sqlserverywh6m4d7qx5r2.database.windows.net,1433;Initial Catalog=medical;Persist Security Info=False;User ID=Student;Password= Htk@erxwSnp5CnX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+     static string clientId = @"a1e23df7-99ef-498d-a79a-d5b8241713ab";
+     static string clientSecret = "a1e23df7-99ef-498d-a79a-d5b8241713ab";
      static void Main(string[] args)
      {
          InitializeAzureKeyVaultProvider();
